@@ -1,0 +1,29 @@
+ Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Winner  →  ".toUpperCase(),
+                    style: TextStyle(
+                      fontFamily: 'PFA',
+                      fontSize: 40,
+                    ),
+                  ),
+                  Container(
+                    width: 65,
+                    height: 65,
+                    child: Center(
+                      child: Text(
+                        "$result".toUpperCase(),
+                        style: TextStyle(
+                          fontFamily: 'PFA',
+                          fontSize: 40,
+                        ),
+                      ),
+                    ),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Theme.of(context).shadowColor,
+                    ),
+                  )
+                ],
+              ),
